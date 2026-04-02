@@ -42,7 +42,7 @@ dengan itu, Kazuma-san, kode-kode yang sudah dibuat insinyur magang Anzio sudah 
 4. Jalankan perintah 2 dan 3 pada keempat terminal itu
 5. Di terminal, kamu jalankan perintah
 `ros2 run package_name *_mode_destroyer`
-* ini diganti dengan:
+'*' ini diganti dengan:
 Terminal 1: auto
 Terminal 2: manual <- Di sini coba pencet2 W A S D untuk gerak, R L buat belok. Bisa remove speed limiter juga loh seperti Rosehip-san di tank Crusader-nya [Pencet shift desu-wa!]
 Terminal 3: check
