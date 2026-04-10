@@ -68,6 +68,11 @@ class DestroyerDrive : public rclcpp::Node
               twist.angular.z = -1.0 * speed_multiplier;
               RCLCPP_INFO(this->get_logger(), "Orientasi Gerak: Belok Kanan");
             }
+            else if (ch == 'b'){
+              twist.linear.x = 0.0;
+              twist.linear.y = 0.0;
+              RCLCPP_INFO(this->get_logger(), "Orientasi Gerak: Berhenti"); //Added brakes! We forgor
+            }
             publisher_->publish(twist);
           }
         }

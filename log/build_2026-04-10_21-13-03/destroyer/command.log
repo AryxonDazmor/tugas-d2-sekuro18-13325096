@@ -1,0 +1,6 @@
+Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer -DCMAKE_INSTALL_PREFIX=/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer
+Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer -DCMAKE_INSTALL_PREFIX=/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer
+Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer -- -j16 -l16
+Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer -- -j16 -l16
+Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer
+Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer

@@ -1,0 +1,13 @@
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/uninstall.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/package_name_uninstall.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/auto_mode_destroyer.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/check_move_destroyer.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/drive_mode_destroyer.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/move_mode_destroyer.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/test.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/edit_cache.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/rebuild_cache.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/list_install_components.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/install.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/install/local.dir
+/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name/CMakeFiles/install/strip.dir

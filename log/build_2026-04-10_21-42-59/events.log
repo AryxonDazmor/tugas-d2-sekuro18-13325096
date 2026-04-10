@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.001034] (destroyer) JobQueued: {'identifier': 'destroyer', 'dependencies': OrderedDict()}
+[0.001244] (destroyer) JobStarted: {'identifier': 'destroyer'}
+[0.005694] (destroyer) JobProgress: {'identifier': 'destroyer', 'progress': 'cmake'}
+[0.007512] (destroyer) JobProgress: {'identifier': 'destroyer', 'progress': 'build'}
+[0.007580] (destroyer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer', '--', '-j16', '-l16'], 'cwd': '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aryxon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/aryxon'), ('OLDPWD', '/home/aryxon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aryxon'), ('NAME', 'Bertrand'), ('WSL_INTEROP', '/run/WSL/5117_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Avogadro/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/c/Users/dazmo/.local/bin:/mnt/c/Users/dazmo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Kuliah/Microsoft VS Code/bin:/mnt/c/Users/dazmo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Users/dazmo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '25f6152f-16f5-410c-9e48-708d9bde86c0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.038086] (destroyer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_mode_destroyer\x1b[0m\n'}
+[0.045750] (destroyer) StdoutLine: {'line': b'[ 75%] Built target check_move_destroyer\n'}
+[0.045972] (destroyer) StdoutLine: {'line': b'[ 75%] Built target auto_mode_destroyer\n'}
+[0.046065] (destroyer) StdoutLine: {'line': b'[ 75%] Built target drive_mode_destroyer\n'}
+[0.047893] (destroyer) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/move_mode_destroyer.dir/src/destroyer_move.cpp.o\x1b[0m\n'}
+[0.100163] (-) TimerEvent: {}
+[0.200548] (-) TimerEvent: {}
+[0.300973] (-) TimerEvent: {}
+[0.401395] (-) TimerEvent: {}
+[0.501813] (-) TimerEvent: {}
+[0.602177] (-) TimerEvent: {}
+[0.702506] (-) TimerEvent: {}
+[0.802926] (-) TimerEvent: {}
+[0.903354] (-) TimerEvent: {}
+[1.003895] (-) TimerEvent: {}
+[1.104322] (-) TimerEvent: {}
+[1.204672] (-) TimerEvent: {}
+[1.305120] (-) TimerEvent: {}
+[1.405630] (-) TimerEvent: {}
+[1.506025] (-) TimerEvent: {}
+[1.606501] (-) TimerEvent: {}
+[1.706968] (-) TimerEvent: {}
+[1.807509] (-) TimerEvent: {}
+[1.908068] (-) TimerEvent: {}
+[2.008708] (-) TimerEvent: {}
+[2.109231] (-) TimerEvent: {}
+[2.209784] (-) TimerEvent: {}
+[2.310298] (-) TimerEvent: {}
+[2.410775] (-) TimerEvent: {}
+[2.511148] (-) TimerEvent: {}
+[2.611660] (-) TimerEvent: {}
+[2.712104] (-) TimerEvent: {}
+[2.812568] (-) TimerEvent: {}
+[2.913106] (-) TimerEvent: {}
+[3.013533] (-) TimerEvent: {}
+[3.113983] (-) TimerEvent: {}
+[3.214516] (-) TimerEvent: {}
+[3.315033] (-) TimerEvent: {}
+[3.415505] (-) TimerEvent: {}
+[3.516051] (-) TimerEvent: {}
+[3.616410] (-) TimerEvent: {}
+[3.716934] (-) TimerEvent: {}
+[3.817404] (-) TimerEvent: {}
+[3.917910] (-) TimerEvent: {}
+[4.018352] (-) TimerEvent: {}
+[4.118755] (-) TimerEvent: {}
+[4.219172] (-) TimerEvent: {}
+[4.319690] (-) TimerEvent: {}
+[4.420095] (-) TimerEvent: {}
+[4.520589] (-) TimerEvent: {}
+[4.621130] (-) TimerEvent: {}
+[4.721643] (-) TimerEvent: {}
+[4.822174] (-) TimerEvent: {}
+[4.922533] (-) TimerEvent: {}
+[5.022955] (-) TimerEvent: {}
+[5.123477] (-) TimerEvent: {}
+[5.223901] (-) TimerEvent: {}
+[5.324438] (-) TimerEvent: {}
+[5.424946] (-) TimerEvent: {}
+[5.525484] (-) TimerEvent: {}
+[5.625927] (-) TimerEvent: {}
+[5.726341] (-) TimerEvent: {}
+[5.826768] (-) TimerEvent: {}
+[5.927276] (-) TimerEvent: {}
+[6.027713] (-) TimerEvent: {}
+[6.128249] (-) TimerEvent: {}
+[6.228759] (-) TimerEvent: {}
+[6.329241] (-) TimerEvent: {}
+[6.429769] (-) TimerEvent: {}
+[6.530335] (-) TimerEvent: {}
+[6.630777] (-) TimerEvent: {}
+[6.701799] (destroyer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_mode_destroyer\x1b[0m\n'}
+[6.731051] (-) TimerEvent: {}
+[6.831747] (-) TimerEvent: {}
+[6.932342] (-) TimerEvent: {}
+[7.033120] (-) TimerEvent: {}
+[7.133769] (-) TimerEvent: {}
+[7.234291] (-) TimerEvent: {}
+[7.335059] (-) TimerEvent: {}
+[7.435614] (-) TimerEvent: {}
+[7.536250] (-) TimerEvent: {}
+[7.636649] (-) TimerEvent: {}
+[7.737098] (-) TimerEvent: {}
+[7.837545] (-) TimerEvent: {}
+[7.937890] (-) TimerEvent: {}
+[7.944932] (destroyer) StdoutLine: {'line': b'[100%] Built target move_mode_destroyer\n'}
+[7.953251] (destroyer) CommandEnded: {'returncode': 0}
+[7.954232] (destroyer) JobProgress: {'identifier': 'destroyer', 'progress': 'install'}
+[7.959765] (destroyer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer'], 'cwd': '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aryxon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/aryxon'), ('OLDPWD', '/home/aryxon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aryxon'), ('NAME', 'Bertrand'), ('WSL_INTEROP', '/run/WSL/5117_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Avogadro/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/c/Users/dazmo/.local/bin:/mnt/c/Users/dazmo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Kuliah/Microsoft VS Code/bin:/mnt/c/Users/dazmo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Users/dazmo/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '25f6152f-16f5-410c-9e48-708d9bde86c0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[7.965562] (destroyer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.968212] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/auto_mode_destroyer\n'}
+[7.969386] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/check_move_destroyer\n'}
+[7.970017] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/drive_mode_destroyer\n'}
+[7.970648] (destroyer) StdoutLine: {'line': b'-- Installing: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/move_mode_destroyer\n'}
+[7.974089] (destroyer) StdoutLine: {'line': b'-- Set runtime path of "/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/move_mode_destroyer" to ""\n'}
+[7.974285] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch\n'}
+[7.974351] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch/.gitkeep\n'}
+[7.974379] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch/anzio_launch.py\n'}
+[7.974404] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/package_run_dependencies/destroyer\n'}
+[7.974430] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/parent_prefix_path/destroyer\n'}
+[7.974661] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/ament_prefix_path.sh\n'}
+[7.974733] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/ament_prefix_path.dsv\n'}
+[7.974780] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/path.sh\n'}
+[7.974809] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/path.dsv\n'}
+[7.974835] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.bash\n'}
+[7.974949] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.sh\n'}
+[7.974977] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.zsh\n'}
+[7.975009] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.dsv\n'}
+[7.975075] (destroyer) StdoutLine: {'line': b'-- Installing: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/package.dsv\n'}
+[7.975158] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/packages/destroyer\n'}
+[7.975228] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/cmake/destroyerConfig.cmake\n'}
+[7.975260] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/cmake/destroyerConfig-version.cmake\n'}
+[7.975343] (destroyer) StdoutLine: {'line': b'-- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/package.xml\n'}
+[7.976382] (destroyer) CommandEnded: {'returncode': 0}
+[7.988277] (destroyer) JobEnded: {'identifier': 'destroyer', 'rc': 0}
+[7.989187] (-) EventReactorShutdown: {}

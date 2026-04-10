@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer -- -j16 -l16
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target move_mode_destroyer[0m
+[0.045s] [ 75%] Built target check_move_destroyer
+[0.045s] [ 75%] Built target auto_mode_destroyer
+[0.045s] [ 75%] Built target drive_mode_destroyer
+[0.047s] [ 87%] [32mBuilding CXX object CMakeFiles/move_mode_destroyer.dir/src/destroyer_move.cpp.o[0m
+[6.701s] [100%] [32m[1mLinking CXX executable move_mode_destroyer[0m
+[7.944s] [100%] Built target move_mode_destroyer
+[7.952s] Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer -- -j16 -l16
+[7.959s] Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer
+[7.964s] -- Install configuration: ""
+[7.967s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/auto_mode_destroyer
+[7.968s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/check_move_destroyer
+[7.969s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/drive_mode_destroyer
+[7.969s] -- Installing: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/move_mode_destroyer
+[7.973s] -- Set runtime path of "/home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/lib/destroyer/move_mode_destroyer" to ""
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch/.gitkeep
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/launch/anzio_launch.py
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/package_run_dependencies/destroyer
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/parent_prefix_path/destroyer
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/ament_prefix_path.sh
+[7.973s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/ament_prefix_path.dsv
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/path.sh
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/environment/path.dsv
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.bash
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.sh
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.zsh
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/local_setup.dsv
+[7.974s] -- Installing: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/package.dsv
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/ament_index/resource_index/packages/destroyer
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/cmake/destroyerConfig.cmake
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/cmake/destroyerConfig-version.cmake
+[7.974s] -- Up-to-date: /home/aryxon/tugas-d2-sekuro18-13325096/install/destroyer/share/destroyer/package.xml
+[7.976s] Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/build/destroyer

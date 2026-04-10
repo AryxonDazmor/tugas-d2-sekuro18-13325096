@@ -1,0 +1,107 @@
+[0.461s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.461s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x775e33a55240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x775e33a54b20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x775e33a54b20>>, mixin_verb=('build',))
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.711s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.730s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'package_name'
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.779s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_target' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_clean_cache' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_clean_first' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'cmake_force_configure' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'ament_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'catkin_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'package_name' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.840s] DEBUG:colcon.colcon_core.verb:Building package 'package_name' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name', 'merge_install': False, 'path': '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer', 'symlink_install': False, 'test_result_base': None}
+[0.840s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.842s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer' with build type 'ament_cmake'
+[0.842s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer'
+[0.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer -DCMAKE_INSTALL_PREFIX=/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name
+[8.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer -DCMAKE_INSTALL_PREFIX=/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name
+[9.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name -- -j16 -l16
+[18.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name -- -j16 -l16
+[18.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name
+[18.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_name)
+[18.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name
+[18.814s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name' for CMake module files
+[18.817s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name' for CMake config files
+[18.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_name', 'cmake_prefix_path')
+[18.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.ps1'
+[18.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.dsv'
+[18.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.sh'
+[18.828s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib'
+[18.828s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/bin'
+[18.828s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib/pkgconfig/package_name.pc'
+[18.828s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib/python3.10/site-packages'
+[18.829s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/bin'
+[18.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.ps1'
+[18.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.dsv'
+[18.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.sh'
+[18.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.bash'
+[18.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.zsh'
+[18.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/colcon-core/packages/package_name)
+[18.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_name)
+[18.837s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name' for CMake module files
+[18.838s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name' for CMake config files
+[18.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_name', 'cmake_prefix_path')
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.ps1'
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.dsv'
+[18.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/hook/cmake_prefix_path.sh'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/bin'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib/pkgconfig/package_name.pc'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/lib/python3.10/site-packages'
+[18.840s] Level 1:colcon.colcon_core.environment:checking '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/bin'
+[18.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.ps1'
+[18.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.dsv'
+[18.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.sh'
+[18.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.bash'
+[18.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/package_name/package.zsh'
+[18.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/package_name/share/colcon-core/packages/package_name)
+[18.843s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.845s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.894s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.895s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[18.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/local_setup.ps1'
+[18.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/_local_setup_util_ps1.py'
+[18.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/setup.ps1'
+[18.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/local_setup.sh'
+[18.906s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/_local_setup_util_sh.py'
+[18.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/setup.sh'
+[18.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/local_setup.bash'
+[18.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/setup.bash'
+[18.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/local_setup.zsh'
+[18.910s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/install/setup.zsh'

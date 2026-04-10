@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-32e9cbdb106a8828ab4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "package_name",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_mode_destroyer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_mode_destroyer-e8bea387fca53a82106e.json",
+					"name" : "auto_mode_destroyer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check_move_destroyer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check_move_destroyer-2965616a874831679b78.json",
+					"name" : "check_move_destroyer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_mode_destroyer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_mode_destroyer-fd64673b11ebf215388f.json",
+					"name" : "drive_mode_destroyer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_mode_destroyer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_mode_destroyer-ddeb90d5b0f74ed4d471.json",
+					"name" : "move_mode_destroyer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_name_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_name_uninstall-e50572e851aa1dde110d.json",
+					"name" : "package_name_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-178955a425abd0e30afa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer/build/package_name",
+		"source" : "/home/aryxon/tugas-d2-sekuro18-13325096/src/destroyer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
