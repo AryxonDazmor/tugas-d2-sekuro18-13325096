@@ -1,4 +1,0 @@
-[ 37%] [32mBuilding CXX object CMakeFiles/move_mode_destroyer.dir/src/destroyer_move.cpp.o[0m
-[ 50%] Built target check_move_destroyer
-[ 62%] Built target drive_mode_destroyer
-[ 87%] Built target auto_mode_destroyer
